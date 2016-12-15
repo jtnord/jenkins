@@ -250,6 +250,13 @@ THE SOFTWARE.
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <groupId>javax.websocket</groupId>
+      <artifactId>javax.websocket-api</artifactId>
+      <!-- 1.0 is the version used by jetty 9 -->
+      <version>1.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
     </dependency>
